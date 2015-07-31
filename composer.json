@@ -1,0 +1,12 @@
+{
+    "name": "secure-pay/secure-xml",
+    "type": "magento-module",
+    "extra": {
+        "map": [
+            ["app/code/local/SecurePay/securexml.php", "app/code/local/SecurePay/securexml.php"],
+            ["app/code/local/SecurePay/Sxml", "app/code/local/SecurePay/Sxml"],
+            ["app/design/frontend/default/default/template/sxml", "app/design/frontend/base/default/template/sxml"],
+            ["app/etc/modules/SecurePay_Sxml.xml", "app/etc/modules/SecurePay_Sxml.xml"]
+        ]
+    }
+}
